@@ -1,40 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="calculadora.css">
-    <script src="script.js"></script>
     <title>Document</title>
-    <link rel="stylesheet" href="calculadora.css">
+<link rel="stylesheet" href="calculadora.css">
 </head>
 <body>
-    <div class="div1">
-        <h1>Calculadora 1.0</h1>
-        <input type="text" id="num1">
+       
+    <div class="Calculadora">
+           
+        <img src="abelha-feliz-dos-desenhos-animados-acenando-a-mao-700-127266595 (1).jpg" alt="abelha"> 
         
-        <select id="meuSeletor" name="meuSeletor">
-            <option value="">Selecione:
-            </option>
-            <option value="somar">Somar</option>
-            <option value="subtrair">Subtrair</option>
-            <option value="multiplicar">Multiplicar</option>
-            <option value="dividir">Dividir</option>
+         <input type="text" class="calculadora-screen" disabled> 
+
+         <div class="calculadora-keys">
             
-        </select>
-        <input type="text" id="num2">
-    </div> 
-    <br>
-    <div class="div2">
-        <input type="button" value="Calcular" id="calular" onclick="calcular()">
-        <input type="button" value="Limpar" id="limpar" onclick="limpar() ">
-        
-        <p id="resultado">Resultado: <span></span></p>
-        
+             <button type="button" class="menor" value="M+">M+</button>
+            <button type="button" class="menor" value="M-">M-</button>
+            <button type="button" class="menor" value="Mr">MR</button>
+            <button type="button" class="menor" value="Mc">MC</button>
 
-        
-        <script src="script.js"></script> 
+             <button type="button" class="operator" value="+">+</button>
+             <button type="button" class="operator" value="-">-</button>
+             <button type="button" class="operator" value="*">&times;</button>
+             <button type="button" class="operator" value="/">/</button>
+
+
+             <button type="button" value="7">7</button>
+             <button type="button" value="8">8</button>
+             <button type="button" value="9">9</button>
+
+             <button type="button" value="4">4</button>
+             <button type="button" value="5">5</button>
+             <button type="button" value="6">6</button>
+
+             <button type="button" value="1">1</button>
+             <button type="button" value="2">2</button>
+             <button type="button" value="3">3</button>
+
+             <button type="button" value="0">0</button>
+             <button type="button" class="all-clear" value="all-clear">AC</button>
+             <button type="button" class="equal-sig" value="=">=</button>
+             
+         </div>
+
+     </div>
+ 
+
+ 
+
+
+ <script src="script.js"></script>
 </body>
-
 </html>
